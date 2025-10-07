@@ -1,0 +1,12 @@
+#datasource specific properties
+spring: 
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://mysqlcontainer:3306/moviebookingdb
+  ##jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
