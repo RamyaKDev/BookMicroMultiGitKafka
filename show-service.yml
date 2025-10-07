@@ -10,3 +10,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+# feign url for movie service
+movie-catalog:
+   service:
+      url: http://movie-catalog:8081
+# feign url for theatre service
+theatre-service:
+   service:
+      url: http://theatre-service:8082
+
+

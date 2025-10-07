@@ -11,5 +11,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+# feign url for show service
+show-service:
+   service:
+      url: http://show-service:8083
+# feign url for user service
+user-service:
+   service:
+      url: http://user-service:8085
 
 
