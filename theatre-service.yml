@@ -3,7 +3,7 @@ spring:
   datasource:
     username: root
     password: abcd
-    url: jdbc:mysql://mysqlcontainer:3306/moviebookingdb
+    url: jdbc:mysql://mybookingcontainer:3306/moviebookingdb
   ##jpa properties
 
   jpa:
